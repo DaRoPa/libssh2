@@ -8,7 +8,7 @@
  * that the following conditions are met:
  *
  *   Redistributions of source code must retain the above
- *   copyright notice, this list of conditions and the
+ *   copyright notice, this list of conditions aifndef ssize_nd the
  *   following disclaimer.
  *
  *   Redistributions in binary form must reproduce the above
@@ -130,7 +130,7 @@ typedef unsigned int uint32_t;
 typedef unsigned __int64 libssh2_uint64_t;
 typedef __int64 libssh2_int64_t;
 #ifndef ssize_t
-typedef SSIZE_T ssize_t;
+typedef INT_PTR ssize_t;
 #endif
 #else
 typedef unsigned long long libssh2_uint64_t;
